@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uma tabela </title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-weight: bold;
+            background-color: lightgray;
+                }
+        table{
+            border-collapse: collapse;
+            background-color: white;
+        }
+        caption{
+            border: 1px solid black;
+            padding: 3px;
+            background-color: rgb(43, 43, 43);
+            color: white;
+            text-shadow: 1px 1px 0px brown;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: darkgray;
+        }
+        td{
+            width: 200px;
+            height: 30px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!--simples
+    table= tabela
+        table row= linha de tabela
+            table heade= cabeçalho
+            table data= dados da tabela-->
+    <table>
+        <caption><strong>tabela</strong></caption>
+        <tr> <!--1°linha-->
+            <td>Lorem, ipsum dolo</td>
+            <td>Lorem ipsum dolor.</td>
+            <td>lor</td>
+            <td>loremm</td>
+        </tr>
+        <tr>
+            <td>l1</td>
+            <td>l2</td>
+            <td>l3</td>
+            <td>l4</td>
+        </tr>
+        <tr>
+            <td>e1</td>
+            <td>e2</td>
+            <td>e3</td>
+            <td>e4</td>
+        </tr>
+        <tr>
+            <td colspan="4">MOTIVOS</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum doli laboriosam?</td>
+
+            <td>Lorem ipsum.</td>
+
+            <td> Lorem ipsum dolue cupiditate recusandae voluptatum quam.</td>
+
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, fuga, modi minus vero fugit necessitatibus voluptate cumque quod labo</td>
+        </tr>
+    </table>
+</body>
+</html>

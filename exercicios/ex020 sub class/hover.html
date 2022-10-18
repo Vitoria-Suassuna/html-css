@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo hover</title>
+    <style>
+        body{
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            display: inline-block;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        }
+
+        div:hover{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h2>utilizando sub classes</h2>
+    <p>passa o mause nas opções pra responder bro</p>
+    <h3>vc esta bem?</h3>
+    <div>
+        SIM
+        <p>que bom :D </p>
+    </div>
+    <div>
+        NÃO
+        <P>poxa espero que você melhore então ;-;</P>
+    </div>
+    <p> </p>
+</body>
+</html>

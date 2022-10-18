@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imag dinamica</title>
+</head>
+<body>
+    <p>use com dispositivos diferentes ou diminua o zoom do navegador <br>
+    as imagens diferentes são apenas para ilustrar o dinamismo da pagina</p>
+    <picture>
+        <source media="(max-width:1000px)" 
+
+        srcset="imagem/mimosa.jpeg" type="image/jpeg">
+
+        <source media="(max-width:2000px)" 
+        
+        srcset="imagem/cat.png" type="image/png">
+
+        <img src="imagem/assina.png" alt="assinatura">
+
+    </picture>
+    
+</body>
+</html>
