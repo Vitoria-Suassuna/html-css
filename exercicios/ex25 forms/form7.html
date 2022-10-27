@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 6</title>
+</head>
+<body>
+    <form action="enviar.php" method="post" autocomplete="on">
+        <p>
+            <label for="ilist">lista</label>
+            <select name="list" id="ilist">
+                <optgroup label="organicos">
+                    <option value="pr">pera</option>
+                    <option value="cr">cera</option>
+                    <option value="er"> erroladinho de carne
+                    </option>
+                </optgroup>
+               <optgroup label="inorganicos">
+                    <option value="pt">prato</option>
+                    <option value="cc">ceramica</option>
+                    <option value="elev"> elevador
+                    </option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">profição</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>professor</option>
+                <option>mecanico</option>
+                <option>carpinteiro</option>
+            </datalist>
+
+        </p>
+        <p>
+            <label for="imsg">mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
